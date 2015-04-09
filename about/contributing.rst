@@ -43,7 +43,7 @@ Workflow
 
 The documentation is hosted on github. And there are tools hooked directly into it:
 
-* there are branches for the different versions of Plone
+* there are branches for the different versions of Plone see, :ref:`plone-versions`.
 
 * translation hooks with Transifex are in place
 
@@ -63,6 +63,17 @@ The main goal of this process is not to annoy you. On the contrary, we **love** 
 
 But the documentation team also wants to keep the documentation in good shape.
 
+.. _plone-versions:
+
+Documentation for differnet versions of Plone
+=============================================
+
+The docs for the different versions [Plone 3, Plone 4, Plone 5] ar organised in branches, insite the `Plone Documentation <https://github.com/plone/documentation>`_ on Github.
+
+The *master* branch is always the current stable version of Plone.
+
+
+
 
 Editing the documentation on GitHub
 ===================================
@@ -78,6 +89,15 @@ This is the recommended way for smaller changes, and for people who are not fami
 - For more information about writing documentation please read the :doc:`styleguide </about/styleguide>` and also :doc:`this </about/helper_tools>`.
 - You will receive a message when your request has been integrated into the documentation. At that moment, feel free to delete the copy of the documentation you created under your account on github. Next time you contribute, just fork again. That way you'll always have a fresh copy of the documentation to work on.
 
+
+Checklist for before you make a pull request
+============================================
+
+To make sure that your pull request will pass, tests [continues intergartion] please make sure that:
+
+* you checked for typos
+* brocken links
+* valid syntax for restrucured syntax
 
 
 Pull request checklist
