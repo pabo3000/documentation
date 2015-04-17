@@ -65,7 +65,7 @@ Styleguide
 README
 ======
 
-This is an example of how a README(.rst) should look like:
+This is an example of what a README(.rst) should look like:
 
 .. code-block:: rst
 
@@ -147,7 +147,7 @@ This is an example of how a README(.rst) should look like:
 Directory Structure
 =====================
 
-* You should configure Sphinx in that way that you have a separate */source* directory for your documentation .rst files
+* You should configure Sphinx in such a way that you have a separate */source* directory for your documentation .rst files
 
 .. code-block:: rst
 
