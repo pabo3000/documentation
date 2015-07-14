@@ -39,11 +39,14 @@ Plone runs as an application on the Zope application server. That server is inst
 Download Plone
 ==============
 
+
+.. note:: What is the state of windows for Plone 5
+
 Plone is available for Microsoft Windows, Mac OSX X, Linux and BSD operating systems.
 
 `Download the latest Plone release <http://plone.org/products/plone/latest_release>`_.
 
-Binary installers are available for Windows and OS X. Installation on Linux, BSD and other Unix workalikes requires a source code installation, made easy by our Unified Installer. "Unified" refers to its ability to install on most Unix workalikes.
+Installation on Linux, BSD and other Unix workalikes requires a source code installation, made easy by our Unified Installer. "Unified" refers to its ability to install on most Unix workalikes.
 
 Plone installation requirements
 ===============================
@@ -54,6 +57,8 @@ See :doc:`Plone installation requirements <requirements>` for detailed requireme
   Shared hosting is not supported unless the shared hosting company says Plone is good to go.
   See :doc:`Plone installation requirements <requirements>`.
 
+
+.. note:: add information about evaluation for example the VirtualBox Appliance
 
 * If you are installing for production - rather than testing or evaluation - review :doc:`Deploying and installing Plone in production </manage/deploying/production/index>` before installation.
 
@@ -145,7 +150,7 @@ in the instructions below.
 
 .. code-block:: console
 
-    wget --no-check-certificate https://launchpad.net/plone/4.3/4.3.3/+download/Plone-4.3.3-UnifiedInstaller.tgz #HAS TO CHANGE TO 5
+    wget --no-check-certificate https://launchpad.net/plone/5.0/5.0/+download/Plone-5.0-UnifiedInstaller.tgz 
 
 Run the Plone installer in standalone mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -154,11 +159,11 @@ Run the Plone installer in standalone mode
 
     # Extract the downloaded file
     #
-    tar -xf Plone-4.3.3-UnifiedInstaller.tgz #HAS TO CHANGE TO 5
+    tar -xf Plone-5.0-UnifiedInstaller.tgz
     #
     # Go the folder containing installer script
     #
-    cd Plone-4.3.3-UnifiedInstaller # HAS TO CHANGE TO 5
+    cd Plone-5.0-UnifiedInstaller
     #
     # Run script
     ./install.sh standalone
@@ -270,6 +275,11 @@ environment (this can be somewhat painful if you aren't used to it)
 OSX
 ---
 
+.. note:: this needs update
+ 
+ - VirtualBox
+ - vagrant
+
 Installing Plone using OSX binary installer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -283,6 +293,8 @@ This is *very* rarely needed.
 
 Installing Plone from source on OS X
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: update this, this still works of course
 
 Installation via the Unified Installer or buildout is very similar to Unix. However, you will
 need to install a command-line build environment. To get a free build kit from Apple, do one of the following:
